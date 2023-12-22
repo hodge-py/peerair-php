@@ -28,8 +28,12 @@
     </div>
     <div class="col-md-2">
     <div class="d-flex justify-content-evenly align-items-center" style="height: 100%;">
+    <?php if($_SESSION['loggedIn'] == 'true') : ?>
+        <a id='logout-control' href="#">logout</a>
+    <?php else : ?>
         <a href="./login.php">login</a>
         <a href="./Signup.php">signup</a>
+    <?php endif; ?>
     </div>
     </div>
     </div>
@@ -309,6 +313,12 @@ a:active {
     
     
     
+    });
+
+    $(document).on('click','#logout-control', function () {
+        
+        window.location.href = './logout.php';
+
     });
     
     </script>
