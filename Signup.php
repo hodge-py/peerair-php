@@ -48,11 +48,14 @@
     <input id="password2" name="password" type="password" class="form-control" />
 
     <label for="password3">Confirm Password:</label>
-    <input id="password3" type="password" class="form-control" />
+    <input id="password3" type="password" type="password2" class="form-control" />
 
     
     </div>
-    <button type="submit" class="btn btn-primary form-control mb-4">Submit</button>
+
+    <button id='submit-form' type="submit" class="btn btn-primary form-control mb-4">Submit</button>
+
+    <div class='text-center pb-3' id="message"></div>
 
 </form>
 
@@ -146,6 +149,17 @@ a:active {
 
 <script>
 
+$('#password2, #password3').on('keyup', function() {
+  if ($('#password2').val() == $('#password3').val()) {
+    $('#message').html('Matching').css('color', 'green');
+    $('#submit-form').prop('disabled', false);
+    return true;
+  } else {
+    $('#message').html('Not Matching').css('color', 'red');
+    $('#submit-form').prop('disabled', true);
+    return false;
+  }
+});
 
 </script>
 
