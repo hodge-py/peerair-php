@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,7 +81,6 @@
 
 <?php
 
-session_start();
 $servername = 'mysql-284bd9f9-khodge1-9a96.a.aivencloud.com';
 $username = 'avnadmin';
 $password = 'AVNS_uj8SPMvMDIqb7M7_NqU';

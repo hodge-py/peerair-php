@@ -1,3 +1,7 @@
+<?php 
+  session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en" class="" style="">
 <head>
@@ -14,10 +18,6 @@
     <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
 
-    <?php 
-    session_start(); 
-    ?>
-
 
 </head>
 <body style="width: 100%;" class="" >
@@ -28,7 +28,7 @@
     </div>
     <div class="col-md-2">
     <div class="d-flex justify-content-evenly align-items-center" style="height: 100%;">
-    <?php if($_SESSION['loggedIn'] == 'true') : ?>
+    <?php if(isset($_SESSION['loggedIn'])) : ?>
         <a id='logout-control' href="#">logout</a>
     <?php else : ?>
         <a href="./login.php">login</a>
