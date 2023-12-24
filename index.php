@@ -40,7 +40,7 @@
     
     <div class="" style="padding-bottom: 85px;"></div>
     
-    <div class="container-fluid " style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1); width: 100%;">
+    <div class="container-fluid" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1); width: 100%; padding: 2.5em 9.375em 0 9.375em;">
     <div class="row pb-5" style="margin: 0px; padding-top: 30px;">
         <div class="col-md-12 pb-3 text-center" style="text-align: justify;">
     
@@ -93,7 +93,7 @@
     
     
     
-    <div class="container-fluid p-5" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1)">
+    <div class="container-fluid" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1); padding: 2.5em 9.375em 0 9.375em;">
     <div class="row" style=" margin: 0px; ">
         <h3 class="text-center fw-bold">Stable Releases</h3>
     
@@ -167,7 +167,7 @@
     
     
     
-    <div class="container-fluid p-5" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1)">
+    <div class="container-fluid" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1); padding: 2.5em 9.375em 0 9.375em;">
         <div class="" style=" margin: 0px;">
             
             <div class="fw-bold display-6 pb-3">Features</div>
@@ -228,18 +228,33 @@
                       <td>Never</td>
                     </tr>
 
-
+                <tr>
+                <td scope="row">File sharing outside of local network</td>
+                  <td>
+                  <svg fill="#ffffff" width="16px" height="16px" viewBox="0 0 200 200" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M114,100l49-49a9.9,9.9,0,0,0-14-14L100,86,51,37A9.9,9.9,0,0,0,37,51l49,49L37,149a9.9,9.9,0,0,0,14,14l49-49,49,49a9.9,9.9,0,0,0,14-14Z"></path></g></svg>
+</td>
+                  <td>
+                  <svg width="16px" height="16px" viewBox="0 -3 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#ffffff" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #000000; --darkreader-inline-stroke: #e8e6e3;" stroke="#ffffff" data-darkreader-inline-stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>checkmark</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: none;"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-518.000000, -1039.000000)" fill="#ffffff" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #ffffff;"> <path d="M548.783,1040.2 C547.188,1038.57 544.603,1038.57 543.008,1040.2 L528.569,1054.92 L524.96,1051.24 C523.365,1049.62 520.779,1049.62 519.185,1051.24 C517.59,1052.87 517.59,1055.51 519.185,1057.13 L525.682,1063.76 C527.277,1065.39 529.862,1065.39 531.457,1063.76 L548.783,1046.09 C550.378,1044.46 550.378,1041.82 548.783,1040.2" id="checkmark" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg>
+</td>
+                </tr>
+                
                 <tr>
                 <td scope="row">Chat Saving</td>
                                 <td>
-                                  <svg fill="#ffffff" width="64px" height="64px" viewBox="0 0 200 200" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M114,100l49-49a9.9,9.9,0,0,0-14-14L100,86,51,37A9.9,9.9,0,0,0,37,51l49,49L37,149a9.9,9.9,0,0,0,14,14l49-49,49,49a9.9,9.9,0,0,0,14-14Z"></path></g></svg>
+                                  <svg fill="#ffffff" width="16px" height="16px" viewBox="0 0 200 200" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M114,100l49-49a9.9,9.9,0,0,0-14-14L100,86,51,37A9.9,9.9,0,0,0,37,51l49,49L37,149a9.9,9.9,0,0,0,14,14l49-49,49,49a9.9,9.9,0,0,0,14-14Z"></path></g></svg>
                                 </td>
-                                <td>Never</td>
+                                <td>
+                                <svg width="16px" height="16px" viewBox="0 -3 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#ffffff" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #000000; --darkreader-inline-stroke: #e8e6e3;" stroke="#ffffff" data-darkreader-inline-stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>checkmark</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: none;"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-518.000000, -1039.000000)" fill="#ffffff" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #ffffff;"> <path d="M548.783,1040.2 C547.188,1038.57 544.603,1038.57 543.008,1040.2 L528.569,1054.92 L524.96,1051.24 C523.365,1049.62 520.779,1049.62 519.185,1051.24 C517.59,1052.87 517.59,1055.51 519.185,1057.13 L525.682,1063.76 C527.277,1065.39 529.862,1065.39 531.457,1063.76 L548.783,1046.09 C550.378,1044.46 550.378,1041.82 548.783,1040.2" id="checkmark" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg>
+</td>
                               </tr>
 
                 <td scope="row">Early access to new features</td>
-                  <td>5 Days</td>
-                  <td>Never</td>
+                  <td>
+                  <svg fill="#ffffff" width="16px" height="16px" viewBox="0 0 200 200" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M114,100l49-49a9.9,9.9,0,0,0-14-14L100,86,51,37A9.9,9.9,0,0,0,37,51l49,49L37,149a9.9,9.9,0,0,0,14,14l49-49,49,49a9.9,9.9,0,0,0,14-14Z"></path></g></svg>
+</td>
+                  <td>
+                  <svg width="16px" height="16px" viewBox="0 -3 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#ffffff" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #000000; --darkreader-inline-stroke: #e8e6e3;" stroke="#ffffff" data-darkreader-inline-stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>checkmark</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: none;"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-518.000000, -1039.000000)" fill="#ffffff" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #ffffff;"> <path d="M548.783,1040.2 C547.188,1038.57 544.603,1038.57 543.008,1040.2 L528.569,1054.92 L524.96,1051.24 C523.365,1049.62 520.779,1049.62 519.185,1051.24 C517.59,1052.87 517.59,1055.51 519.185,1057.13 L525.682,1063.76 C527.277,1065.39 529.862,1065.39 531.457,1063.76 L548.783,1046.09 C550.378,1044.46 550.378,1041.82 548.783,1040.2" id="checkmark" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg>
+</td>
                 </tr>
 
               </tbody>
