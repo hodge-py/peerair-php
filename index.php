@@ -247,7 +247,8 @@
                                 <svg width="16px" height="16px" viewBox="0 -3 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#ffffff" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #000000; --darkreader-inline-stroke: #e8e6e3;" stroke="#ffffff" data-darkreader-inline-stroke=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>checkmark</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke: none;"> <g id="Icon-Set-Filled" sketch:type="MSLayerGroup" transform="translate(-518.000000, -1039.000000)" fill="#ffffff" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #ffffff;"> <path d="M548.783,1040.2 C547.188,1038.57 544.603,1038.57 543.008,1040.2 L528.569,1054.92 L524.96,1051.24 C523.365,1049.62 520.779,1049.62 519.185,1051.24 C517.59,1052.87 517.59,1055.51 519.185,1057.13 L525.682,1063.76 C527.277,1065.39 529.862,1065.39 531.457,1063.76 L548.783,1046.09 C550.378,1044.46 550.378,1041.82 548.783,1040.2" id="checkmark" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg>
 </td>
                               </tr>
-
+                
+                <tr>
                 <td scope="row">Early access to new features</td>
                   <td>
                   <svg fill="#ffffff" width="16px" height="16px" viewBox="0 0 200 200" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M114,100l49-49a9.9,9.9,0,0,0-14-14L100,86,51,37A9.9,9.9,0,0,0,37,51l49,49L37,149a9.9,9.9,0,0,0,14,14l49-49,49,49a9.9,9.9,0,0,0,14-14Z"></path></g></svg>
@@ -260,12 +261,12 @@
               <tr>
               <td scope="row"></td>
                   <td>
-                    <a type="button" class="btn btn-primary p-3" href="https://www.dropbox.com/scl/fi/3e2jb0s1niz03wc429k1v/peerair-win32-x64.zip?rlkey=tr0hxlsz2a6rec37iduhoi9s0&dl=1" download>
+                    <a type="button" class="btn btn-primary" href="https://www.dropbox.com/scl/fi/3e2jb0s1niz03wc429k1v/peerair-win32-x64.zip?rlkey=tr0hxlsz2a6rec37iduhoi9s0&dl=1" download>
                   <svg class="me-2" width="24px" height="24px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>windows [#174]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7439.000000)" fill="#ffffff"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M13.1458647,7289.43426 C13.1508772,7291.43316 13.1568922,7294.82929 13.1619048,7297.46884 C16.7759398,7297.95757 20.3899749,7298.4613 23.997995,7299 C23.997995,7295.84873 24.002005,7292.71146 23.997995,7289.71311 C20.3809524,7289.71311 16.7649123,7289.43426 13.1458647,7289.43426 M4,7289.43526 L4,7296.22153 C6.72581454,7296.58933 9.45162907,7296.94113 12.1724311,7297.34291 C12.1774436,7294.71736 12.1704261,7292.0908 12.1704261,7289.46524 C9.44661654,7289.47024 6.72380952,7289.42627 4,7289.43526 M4,7281.84344 L4,7288.61071 C6.72581454,7288.61771 9.45162907,7288.57673 12.1774436,7288.57973 C12.1754386,7285.96017 12.1754386,7283.34361 12.1724311,7280.72405 C9.44461153,7281.06486 6.71679198,7281.42567 4,7281.84344 M24,7288.47179 C20.3879699,7288.48578 16.7759398,7288.54075 13.1619048,7288.55175 C13.1598997,7285.88921 13.1598997,7283.22967 13.1619048,7280.56914 C16.7689223,7280.01844 20.3839599,7279.50072 23.997995,7279 C24,7282.15826 23.997995,7285.31353 24,7288.47179" id="windows-[#174]"> </path> </g> </g> </g> </g></svg>
                   Download for Windows</a>
                   </td>
-                  <td>
-                    <a type="button" class="btn btn-primary p-3" href="#" style='width: 14em;'>
+                  <td style='height:10px;'>
+                    <a type="button" class="btn btn-primary my-auto" href="#" style='width: 14em; height: 100%;'>
                       Subscribe
                   </a>
                   </td>
@@ -355,35 +356,11 @@ a:active {
     <script>
     $(document).ready(function () {
 
-    
-    $(document).on('click','.btn-check', function () {
-        if($(this).val() == 'month'){
-            $("#priceCal").text("$2.99/mo");
-        }
-        else if($(this).val() == 'year'){
-            $("#priceCal").text("$29.99/yr");
-        }
-
-    });
-
-    $(document).on('click','.PriceColumn-button', function () {
-        if('<?php $_SESSION['loggedIn']; ?>' == 'true'){
-
-        }
-        else{
-            window.location.href = './login.php';
-        }
-
-
-    });
-    
-    
-    
-    });
-
     $(document).on('click','#logout-control', function () {
         
         window.location.href = './logout.php';
+
+    });
 
     });
     
