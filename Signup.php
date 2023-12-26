@@ -97,16 +97,19 @@ try {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["full-name"];
     $email = $_POST['username'];
-    $password = $_POST['password'];
+    $password_org = $_POST['password'];
+  $random = rand(1,100000000);
+  $password = $password_org . $random;
+  $hashed = hash('sha256',$password);
 
-    $sql = "INSERT INTO peerair_users (full_name, email, pass) VALUES ('$name', '$email', '$password')";
+    $sql = "INSERT INTO peerair_users (full_name, email, pass, salt) VALUES ('$name', '$email', '$hashed', '$random')";
     
     if (!$conn->query($sql)) {
       echo"error";
     } else {
       echo "New record created successfully";
       $_SESSION['loggedIn'] = 'true';
-      header('Location: index.php');
+      header('Location: ./index.php');
     }
 }
 

@@ -85,13 +85,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['username'];
     $password = $_POST['password'];
 
-    $sql = "SELECT email, pass FROM peerair_users WHERE email='$email' AND pass='$password'";
+    $sql = "SELECT email, pass, salt FROM peerair_users WHERE email='$email'";
     $result = $conn->query($sql);
-    
-    if($result->fetchColumn() > 0) {
-        $_SESSION['loggedIn'] = 'true';
-        header('Location: index.php');
-    }
+  
+      $new_result = $result->fetchAll(); 
+      // OUTPUT DATA OF EACH ROW 
+      foreach ($new_result as $row)  
+      { 
+          $new_password = $password . $row['salt'];
+          $new_password = hash('sha256', $new_password);
+          if($row['pass'] == $new_password) {
+              $_SESSION['loggedIn'] = 'true';
+              header('Location: ./index.php');
+          }
+          else{
+            header('Location: ./login.php');
+          }
+      } 
+      
 }
 
 
