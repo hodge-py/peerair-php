@@ -40,7 +40,7 @@
     
     <div class="" style="padding-bottom: 85px;"></div>
     
-    <div class="container-fluid" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1); width: 100%; padding: 2.5em 9.375em 0 9.375em;">
+    <div class="container-fluid pad-issue" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1); width: 100%;">
     <div class="row pb-3" style="margin: 0px; padding-top: 30px;">
         <div class="col-md-12 pb-3 text-center" style="text-align: justify;">
     
@@ -90,7 +90,7 @@
         
     
     
-    <div class="container-fluid" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1); padding: 2.5em 9.375em 0 9.375em;">
+    <div class="container-fluid pad-issue" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1);">
     <div class="row" style=" margin: 0px; ">
         <h3 class="text-center fw-bold">Stable Releases</h3>
     
@@ -161,9 +161,9 @@
         </div>
     
     
-     <div class="container-fluid text-center" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1); padding: 2.5em 9.375em 0 9.375em;">
+     <div class="container-fluid text-center pad-issue" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1);">
 
-       <h1 class='pb-3'>Pricing</h1>
+       <h1 class='pb-3 pt-2'>Pricing</h1>
     <div class='d-flex justify-content-center'>
 
       <div class="card text-bg-dark text-center mb-3 w-100" style=''>
@@ -218,7 +218,7 @@
 
   
     
-    <div class="container-fluid" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1); padding: 2.5em 9.375em 0 9.375em;">
+    <div class="container-fluid pad-issue" style=" background-color: rgba(0, 0, 0, 0.384); color: rgba(255, 255, 255,1); ">
         <div class="" style=" margin: 0px;">
             
             <div class="fw-bold display-6 pb-3">Features</div>
@@ -375,13 +375,15 @@ a:active {
         border-left: 2px solid;
         padding: 100px;
     }
-    
-    @media screen and (max-width: 991px) {
-    
-    #border-remove{
-        border-top: 2px solid;
-        border-left: 0px;
+
+    .pad-issue {
+      padding: 2.5em 9.375em 0 9.375em;
     }
+    
+    @media screen and (max-width: 600px) {
+      .pad-issue {
+        padding: 0em;
+      }
     
     }
     :root {
