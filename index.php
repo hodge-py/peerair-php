@@ -174,7 +174,7 @@
             <table class="table table-dark table-hover text-center table-striped-columns ">
               <thead>
                 <tr>
-                  <th scope="col" class='align-middle'><h3>Features</h3></th>
+                  <th scope="col" class='align-middle'><h3></h3></th>
                   
                   <th scope="col" class='align-middle'>
                     <div class='d-flex flex-column justify-content-center'>
